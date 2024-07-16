@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Home Page -->
+    <section id="home">
+        <h1>Course Title</h1>
+        <p>Course Description</p>
+        <div class="instructor">
+            <img src="instructor.jpg" alt="Instructor Photo">
+            <p>Instructor Bio</p>
+        </div>
+        <button onclick="enroll()">Enroll Now</button>
+    </section>
+
+    <!-- Syllabus -->
+    <section id="syllabus">
+        <h2>Course Syllabus</h2>
+        <ul>
+            <li>Week 1: Topic 1</li>
+            <li>Week 2: Topic 2</li>
+            <!-- More weeks -->
+        </ul>
+    </section>
+
+    <!-- Enrollment Page -->
+    <section id="enrollment">
+        <h2>Enroll Now</h2>
+        <p>Course Fee: $XXX</p>
+        <form id="enrollment-form">
+            <!-- Form fields -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Course Content -->
+    <section id="content">
+        <h2>Course Content</h2>
+        <video controls>
+            <source src="lecture1.mp4" type="video/mp4">
+        </video>
+        <p>Additional readings and materials.</p>
+        <form>
+            <label for="quiz">Quiz:</label>
+            <input type="text" id="quiz" name="quiz">
+        </form>
+    </section>
+
+    <!-- Instructor Page -->
+    <section id="instructor">
+        <h2>Instructor</h2>
+        <p>Detailed Bio</p>
+    </section>
+
+    <!-- Support and FAQs -->
+    <section id="support">
+        <h2>Support and FAQs</h2>
+        <p>Contact Support: <a href="mailto:support@example.com">support@example.com</a></p>
+        <ul>
+            <li>FAQ 1: Answer</li>
+            <li>FAQ 2: Answer</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: email@example.com | Phone: 123-456-7890</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        <p>Follow us: 
+            <a href="https://twitter.com">Twitter</a> | 
+            <a href="https://facebook.com">Facebook</a>
+        </p>
+    </footer>
+</body>
+</html>
+
